@@ -201,3 +201,9 @@ so later steps can run without errors or unexpected results.
 In this project, validation is implemented directly,
 so all checks are visible, repeatable, and easy to review as part
 of the pipeline.
+
+## Phase 4: Make a Technical Modification
+
+For the technical modification I chose to update the target url to a different arxiv paper, "Optimal Annuitization Time under a Mortality Shock." I was able to implement after working through several errors caused by not using the right formatted link. I originally was using the html link instead of the abstract link. Once that was updated in the config file the updated code ran without issue.
+
+I also elected to add an extratction of the pdf link. This modification caused a few small issues mostly from syntax due to missing the f in one of my LOG.info lines. I am still running into issues getting the pdf link to be extracted and working on what could cause the unknown return in the processed data file.
